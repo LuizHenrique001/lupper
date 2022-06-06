@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
+
+:root {
+    --cor1: #1e1f29;
+    --cor2: #45b8ed;
+    --cor3: #f3f3f3;
+    --cor4: #6092ac;
+}
+
+/* NavBar da Loja */
+
+.nav_principal {
+    background-color: var(--cor1);
+}
+
+.nav_p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px;
+}
+
+.nav_p a {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: .4s;
+    border-radius: 6px
+}
+
+.nav_p a:hover {
+    background-color: var(--cor2);;
+}
+
+/* Container 1 */
+
+.container {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    background-image: url('../images/pexels-spencer-selover-428340.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.nome_loja {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: white;
+    padding: 100px 0px 40px 80px;
+}
+
+.texto_loja {
+    font-family: 'Montserrat', sans-serif;
+    color: #249ed6;
+    padding: 40px 10px 40px 80px;
+}
+
+.btn_loja {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 40px 10px 40px 80px;
+}
+
+.btn_loja a {
+    background-color: var(--cor2);
+    color: white;
+    text-decoration: none;
+
+    border-radius: 6px;
+    padding: 12px 40px;
+
+    transition: .4s;
+}
+
+.btn_loja a:hover {
+    background-color: #3181a6;
+}
+
+/* Container 2 */
+
+.container2 {
+    text-align: center;
+    width: 100%;
+}
+
+.caixa1 {
+    display: inline-table;
+    width: 200px;
+    height: 300px;
+    background-color: var(--cor1);
+    margin: 15px;
+    background-image: url('../images/pexels-anastasiya-gepp-2065195.jpg');
+    background-size: cover;
+}
+
+.caixa2 {
+    width: 200px;
+    height: 300px;
+    background-color: var(--cor1);
+    display: inline-table;
+    margin: 15px;
+    background-image: url('../images/pexels-melvin-buezo-2529148.jpg');
+    background-size: cover;
+}
+
+.caixa3 {
+    width: 200px;
+    height: 300px;
+    background-color: var(--cor1);
+    display: inline-table;
+    margin: 15px;
+    background-image: url('../images/pexels-arsham-haghani-3387577.jpg');
+    background-size: cover;
+}
+
+.btn_container2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 260px;
+
+}
+
+.btn_container2 a {
+    text-decoration: none;
+    color: var(--cor2);
+    background-color: var(--cor1);
+    border-radius: 7px;
+    padding: 10px  14px;
+    transition: .3s;
+}
+
+.btn_container2 a:hover {
+    background-color: #121318;
+}
