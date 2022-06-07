@@ -155,8 +155,8 @@
 .roupas_container3 {
     display: inline-table;
     width: 200px;
-    height: 380px;
-
+    height: 415px;
+    line-height: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.46);
     background-color: #ffffff;
     margin: 5px;
@@ -170,6 +170,34 @@
 .informacoes_container3 {
     font-family: 'Montserrat', sans-serif;
     color: black;
+    text-align: left;
+    padding: 4px;
+}
+
+.preco_produto {
+    padding: 4px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+.btn_comprar {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.btn_comprar a {
+    text-decoration: none;
+    padding: 10px 17px;
+    color: var(--cor2);
+    background-color: var(--cor1);
+    border-radius: 7px;
+    transition: .3s;
+}
+
+.btn_comprar a:hover {
+    background-color: #121318;
 }
 
 /* Footer do SIte */
