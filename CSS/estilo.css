@@ -142,3 +142,34 @@
 .btn_container2 a:hover {
     background-color: #121318;
 }
+
+/* Footer do SIte */
+
+footer {
+    background-color: var(--cor1);
+}
+
+.btn_footer {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 60px;
+}
+
+.btn_footer a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn_footer a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+}
