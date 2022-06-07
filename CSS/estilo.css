@@ -200,6 +200,14 @@
     background-color: #121318;
 }
 
+.titulo_container3 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 10px 5px 20px 30px;
+    text-align: left;
+    font-size: 48px;
+}
+
 /* Footer do SIte */
 
 footer {
