@@ -143,6 +143,35 @@
     background-color: #121318;
 }
 
+/* Container 3 - Roupas */
+
+.container3 {
+    width: 100%;
+    padding: 40px 0px;
+    text-align: center;
+    background-color: #1b4659;
+}
+
+.roupas_container3 {
+    display: inline-table;
+    width: 200px;
+    height: 380px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.46);
+    background-color: #ffffff;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.roupas_container3 img {
+    width: 100%;
+}
+
+.informacoes_container3 {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
 /* Footer do SIte */
 
 footer {
