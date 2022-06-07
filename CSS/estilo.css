@@ -209,6 +209,36 @@
     font-size: 48px;
 }
 
+/* Loja */
+
+.titulo_loja {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #121318;
+    padding: 40px;
+    font-size: 48px;
+}
+
+/* Barra de Pesquisa */
+
+.barra_pesquisa {
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 15px;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+
+::-webkit-input-placeholder {
+    color: #989898;
+    font-weight: 'Montserrat', sans-serif;
+}
+
 /* Footer do SIte */
 
 footer {
