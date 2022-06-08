@@ -220,6 +220,27 @@
     font-size: 48px;
 }
 
+.container4 {
+    line-height: 20px;
+    background-color: #1b4659;
+    text-align: center;
+}
+
+.produtos_container4 {
+    width: 200px;
+    height: 415px;
+    display: inline-table;
+    line-height: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.46);
+    background-color: #ffffff;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.container4 img {
+    width: 100%;
+}
+
 /* Barra de Pesquisa */
 
 .barra_pesquisa {
