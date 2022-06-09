@@ -248,9 +248,8 @@
     outline: none;
     border: none;
     background-color: #ffffff;
-    padding: 10px;
     border-radius: 15px;
-    margin: 15px;
+    margin: 12px;
     color: rgb(0, 0, 0);
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
@@ -259,6 +258,23 @@
 ::-webkit-input-placeholder {
     color: #989898;
     font-weight: 'Montserrat', sans-serif;
+}
+
+.div_busca {
+    display: inline-flex;
+    background-color: white;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.div_busca img {
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    background-color: #1e1f29;
+    border-radius: 50%;
+    padding: 7px;
+    margin: 3px;
 }
 
 /* Footer do SIte */
