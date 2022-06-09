@@ -185,7 +185,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     text-align: center;
-    margin-top: 15px;
+    margin: 15px;
 }
 
 .btn_comprar a {
@@ -229,7 +229,7 @@
 
 .produtos_container4 {
     width: 200px;
-    height: 415px;
+    height: 100%;
     display: inline-table;
     line-height: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.46);
