@@ -282,6 +282,32 @@
     background-color: #1e1a1a;
 }
 
+/* Resultado Busca */
+
+.busca_feita {
+    margin: 0px 10px 10px 15px;
+    display: inline-block;
+}
+
+.resultado_busca {
+    display: inline-table;
+    width: 200px;
+    height: 40px;
+    background-color: black
+}
+
+.resultado_busca:hover {
+    background-color: #0b0f14;
+}
+
+.saida_de_dados {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 11px;
+}
+
 /* Footer do SIte */
 
 footer {
