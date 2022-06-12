@@ -79,9 +79,4 @@ let produtosDoSite = `<div class="produtos_container4">
 <p class="btn_comprar"><a href="loja.html">Comprar</a></p>
 </div>`
 
-/*function adicionar_item() {
-    container4.innerHTML += produtosDoSite
-}*/
-
-container4.innerHTML += produtosDoSite
-
+container4.innerHTML += produtosDoSite //Para mostrar os produtos
