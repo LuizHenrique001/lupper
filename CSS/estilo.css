@@ -312,6 +312,19 @@
     padding-top: 11px;
 }
 
+/* Carrinho de Compras */
+
+.ativar_menu {
+    width: 30px;
+    height: 30px;
+    background-color: #249ed6;
+    transition: .4s;
+}
+.ativar_menu:hover > .menu_compras {
+    width: 600px;
+    height: 200px;
+    background-color: #000000;
+}
 /* Login do Site */
 
 .container_login {
@@ -383,10 +396,12 @@
 
 .recuperar_senha a {
     color: #989898;
+    text-decoration: none;
 }
 
 .recuperar_senha a:hover {
-    color: #6b6b6b;
+    color: #4a4a4a;
+    text-decoration: underline;
 }
 
 ::-webkit-input-placeholder {

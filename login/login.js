@@ -1,14 +1,24 @@
-let gmail = document.getElementById('gmail').value
-let senha = document.getElementById('senha').value
+let gmail = document.getElementById('gmail')
+let senha = document.getElementById('senha')
 let saida_erro_gmail = document.querySelector('div.saida_erro_gmail')
 let saida_erro_senha = document.querySelector('div.saida_erro_senha')
 function registroLogin() {
-    if((gmail != '') && (senha != '')){
-        alert('Logado com sucesso!')
+    let verificar_gmail = gmail.value
+    let verificar_senha = senha.value
+    
+    if (verificar_gmail == '' && verificar_senha == '') {
+        saida_erro_gmail.innerHTML = 'campo vazio'
+        saida_erro_senha.innerHTML = 'campo vazio'
+    }
+    else if(verificar_gmail == '') {
+        saida_erro_gmail.innerHTML = 'campo vazio'
+    }
+    else if(verificar_senha = ''){
+        saida_erro_senha.innerHTML = 'campo vazio'
     }
     else {
-        saida_erro_gmail.innerHTML = 'O campo está vazio'
-        saida_erro_senha.innerHTML = 'O campo está vazio'
+        saida_erro_gmail.innerHTML = ''
+        saida_erro_senha.innerHTML = ''
+        alert('Logado com sucesso!')
     }
-
 }
