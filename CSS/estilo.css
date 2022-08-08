@@ -329,7 +329,7 @@
 
 .container_login {
     width: 350px;
-    height: 480px;
+    height: 450px;
     background-color: #ffffff;
     text-align: center;
     display: flex;
@@ -379,13 +379,14 @@
     text-decoration: none;
     color: white;
     background-color: var(--cor1);
-    padding: 10px 30px;
+    padding: 10px 50px;
     transition: .3s;
     border-radius: 5px;
 }
 
 .btn_login a:hover {
     background-color: #000000;
+    padding: 10px 80px;
 }
 
 .recuperar_senha {

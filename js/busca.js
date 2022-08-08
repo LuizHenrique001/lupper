@@ -1,6 +1,7 @@
 let input = document.getElementById('barra_pesquisa')
 let saida = document.querySelector('div.busca_feita')
 let botao_busca = document.querySelector('img#botao_busca')
+let link_loja = `<a>`
 function buscar_produto() {
     let receber_input = input.value
     if((receber_input != '') && (receber_input != null) && (receber_input != undefined)){
@@ -10,8 +11,18 @@ function buscar_produto() {
                 ${receber_input}
             </p>
         </div>`
+        if(receber_input == 'home') {
+            saida.innerHTML = `
+            <div class="resultado_busca">
+                <p class="saida_de_dados">
+                    <a href="../index.html">${receber_input}</a>
+                </p>
+            </div>`
+        }
+        else {
+            saida.innerHTML = valorBuscado
+        }
 
-        saida.innerHTML = valorBuscado
         input.value = ''
     }
 }
