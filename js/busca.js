@@ -1,7 +1,8 @@
 let input = document.getElementById('barra_pesquisa')
 let saida = document.querySelector('div.busca_feita')
 let botao_busca = document.querySelector('img#botao_busca')
-let link_loja = `<a>`
+let produtos_encontrados = document.querySelector('div.container4')
+
 function buscar_produto() {
     let receber_input = input.value
     if((receber_input != '') && (receber_input != null) && (receber_input != undefined)){
@@ -11,12 +12,30 @@ function buscar_produto() {
                 ${receber_input}
             </p>
         </div>`
-        if(receber_input == 'home') {
+        if(receber_input.toLowerCase() == 'home') {
             saida.innerHTML = `
             <div class="resultado_busca">
                 <p class="saida_de_dados">
                     <a href="../index.html">${receber_input}</a>
                 </p>
+            </div>`
+        }
+        else if(receber_input == 'camisa') {
+            produtos_encontrados.innerHTML = `<div class="titulo_busca">
+            <h1 class="h1_produtos">
+                Busca encontrada
+            </h1>
+            <p><a href="loja.html">Voltar</a></p>
+            </div>`+`<div class="produtos_container4">
+            <img src="../roupas-loja/pexels-alisson-souto-1759622.jpg" alt="Roupas">
+            <p class="informacoes_container3">Camisa Feminina Adidas</p>
+            <p class="preco_produto">R$ 340,00</p>
+            <p class="btn_comprar"><a>Comprar</a></p>
+            </div>`+`<div class="produtos_container4">
+            <img src="../roupas-loja/pexels-arnie-chou-12.jpg" alt="Roupas">
+            <p class="informacoes_container3">Camisa Branca e calça jeans</p>
+            <p class="preco_produto">R$ 670,00</p>
+            <p class="btn_comprar"><a href="loja.html">Comprar</a></p>
             </div>`
         }
         else {
