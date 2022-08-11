@@ -20,7 +20,7 @@ function buscar_produto() {
                 </p>
             </div>`
         }
-        else if(receber_input == 'camisa') {
+        else if(receber_input.toLowerCase() == 'camisa') {
             produtos_encontrados.innerHTML = `<div class="titulo_busca">
             <h1 class="h1_produtos">
                 Busca encontrada
